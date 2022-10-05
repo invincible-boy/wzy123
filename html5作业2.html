@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>作业</title>
+		<style>
+			.top{
+				color: blue;
+				font-size: 15px;
+				font-family: 宋体;
+			}
+			tr{
+				background-color: aquamarine;
+			}
+		</style>
+	</head>
+	<body>
+		<table border="1">
+    <tr>
+        <td colspan="2" align="center" class="top">
+			信息统计表</td>
+    </tr>
+    <tr>
+        <td>帐号:<input type="text" name="userName"></td>
+		
+    </tr>
+	<tr>
+	    <td>密码:<input type="text" name="userName"></td>
+	</tr>
+	<tr>
+		<td>性别：
+		<input type="radio" name="sex" value="1"/>男
+		<input type="radio" name="sex" value="0"/>女
+		</td>
+	</tr>
+	<tr>
+		<td>爱好：
+			<input type="checkbox" name="hobby" value="1">旅游</br>
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<input type="checkbox" name="hobby" value="1">绘画</br>
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<input type="checkbox" name="hobby" value="1">健身</br>
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<input type="checkbox" name="hobby" value="1">唱歌</br>
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<input type="checkbox" name="hobby" value="1">游泳</br>
+		</td>	
+	</tr>
+	<tr>
+		<td>学历：
+		<select name="degree">
+			<option value="">--请选择--</option>
+			<option value="1">专科</option>
+			<option value="2">本科</option>
+			<option value="3">硕士</option>
+			<option value="4">博士及以上</option>
+		</select>
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			自我介绍：
+		<textarea name="comment" rows="5" cols="30"></textarea>
+		</td>
+	</tr>
+	<tr>
+		 <td>
+			 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<input type="submit" value="提交"/>
+			<input type="reset" value="重置"/>
+		</td>
+	</tr>
+</table>
+	</body>
+</html>
