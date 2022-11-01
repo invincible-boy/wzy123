@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script>
+			function openWin01(){
+				myWindow=window.open('./log.html','','width=200,height=100');
+				myWindow.focus();
+			}
+			function openWin02(){
+				myWindow=window.open('./login.html','','width=200,height=100');
+				myWindow.focus();
+			}
+		</script>
+	</head>
+	<body>
+		<input type="button" value="登录" onclick="openWin01()" />
+		<input type="button" value="注册" onclick="openWin02()" />
+		<p>这是主页面</p>
+	</body>
+</html>
